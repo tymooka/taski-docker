@@ -213,5 +213,5 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
           message: |
-            ${{ steps.commit_info.outputs.author_name }} успешно задеплоил kittygram!
+            ${{ steps.commit_info.outputs.author_name }} успешно задеплоил taski_docker!
             Хеш коммита: ${{ steps.commit_info.outputs.commit_hash }}
